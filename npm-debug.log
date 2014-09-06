@@ -1,0 +1,469 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'spark-io' ]
+2 info using npm@1.3.14
+3 info using node@v0.10.22
+4 verbose cache add [ 'spark-io', null ]
+5 verbose cache add name=undefined spec="spark-io" args=["spark-io",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'spark-io',
+6 verbose parsed url   path: 'spark-io',
+6 verbose parsed url   href: 'spark-io' }
+7 silly lockFile bf8213fb-spark-io spark-io
+8 verbose lock spark-io /Users/ytham/.npm/bf8213fb-spark-io.lock
+9 silly lockFile bf8213fb-spark-io spark-io
+10 silly lockFile bf8213fb-spark-io spark-io
+11 verbose addNamed [ 'spark-io', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 50436272-spark-io spark-io@
+14 verbose lock spark-io@ /Users/ytham/.npm/50436272-spark-io.lock
+15 silly addNameRange { name: 'spark-io', range: '*', hasData: false }
+16 verbose url raw spark-io
+17 verbose url resolving [ 'https://registry.npmjs.org/', './spark-io' ]
+18 verbose url resolved https://registry.npmjs.org/spark-io
+19 info trying registry request attempt 1 at 14:30:00
+20 http GET https://registry.npmjs.org/spark-io
+21 http 200 https://registry.npmjs.org/spark-io
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Sat, 06 Sep 2014 21:30:02 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"59ALTZX1U9WCBSCAF4MN7RD0R"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=60',
+22 silly registry.get     'content-length': '43441',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     'x-served-by': 'cache-lax1432-LAX',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1410039002.426718,VS0,VE107',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'spark-io', range: '*', hasData: true }
+24 silly addNameRange versions [ 'spark-io',
+24 silly addNameRange   [ '0.0.1',
+24 silly addNameRange     '0.0.2',
+24 silly addNameRange     '0.0.3',
+24 silly addNameRange     '0.0.5',
+24 silly addNameRange     '0.1.0',
+24 silly addNameRange     '0.1.1',
+24 silly addNameRange     '0.1.2',
+24 silly addNameRange     '0.1.3',
+24 silly addNameRange     '0.1.4',
+24 silly addNameRange     '0.1.5',
+24 silly addNameRange     '0.1.6',
+24 silly addNameRange     '0.1.7',
+24 silly addNameRange     '0.1.8',
+24 silly addNameRange     '0.1.9',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '0.3.1',
+24 silly addNameRange     '0.3.2',
+24 silly addNameRange     '0.3.3',
+24 silly addNameRange     '0.3.4',
+24 silly addNameRange     '0.3.5',
+24 silly addNameRange     '0.3.6',
+24 silly addNameRange     '0.3.7',
+24 silly addNameRange     '0.3.8',
+24 silly addNameRange     '0.3.9',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.5.0',
+24 silly addNameRange     '0.5.1' ] ]
+25 verbose addNamed [ 'spark-io', '0.5.1' ]
+26 verbose addNamed [ '0.5.1', '0.5.1' ]
+27 silly lockFile 65065b9f-spark-io-0-5-1 spark-io@0.5.1
+28 verbose lock spark-io@0.5.1 /Users/ytham/.npm/65065b9f-spark-io-0-5-1.lock
+29 silly lockFile 41eb676b--org-spark-io-spark-io-0-5-1-tgz https://registry.npmjs.org/spark-io/-/spark-io-0.5.1.tgz
+30 verbose lock https://registry.npmjs.org/spark-io/-/spark-io-0.5.1.tgz /Users/ytham/.npm/41eb676b--org-spark-io-spark-io-0-5-1-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/spark-io/-/spark-io-0.5.1.tgz',
+31 verbose addRemoteTarball   '890cc9264d4b38a32d63222fb98b6a4efa512fd1' ]
+32 info retry fetch attempt 1 at 14:30:04
+33 verbose fetch to= /var/folders/sn/m3v74dg96pd965kcr6nd8pqw0000gn/T/npm-78579--auoCnuH/1410039004976-0.19320048484951258/tmp.tgz
+34 http GET https://registry.npmjs.org/spark-io/-/spark-io-0.5.1.tgz
+35 http 200 https://registry.npmjs.org/spark-io/-/spark-io-0.5.1.tgz
+36 verbose tar unpack /var/folders/sn/m3v74dg96pd965kcr6nd8pqw0000gn/T/npm-78579--auoCnuH/1410039004976-0.19320048484951258/tmp.tgz
+37 silly lockFile 4ddfbcdf-4976-0-19320048484951258-package tar:///var/folders/sn/m3v74dg96pd965kcr6nd8pqw0000gn/T/npm-78579--auoCnuH/1410039004976-0.19320048484951258/package
+38 verbose lock tar:///var/folders/sn/m3v74dg96pd965kcr6nd8pqw0000gn/T/npm-78579--auoCnuH/1410039004976-0.19320048484951258/package /Users/ytham/.npm/4ddfbcdf-4976-0-19320048484951258-package.lock
+39 silly lockFile 0ff4e7b8-4976-0-19320048484951258-tmp-tgz tar:///var/folders/sn/m3v74dg96pd965kcr6nd8pqw0000gn/T/npm-78579--auoCnuH/1410039004976-0.19320048484951258/tmp.tgz
+40 verbose lock tar:///var/folders/sn/m3v74dg96pd965kcr6nd8pqw0000gn/T/npm-78579--auoCnuH/1410039004976-0.19320048484951258/tmp.tgz /Users/ytham/.npm/0ff4e7b8-4976-0-19320048484951258-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry .travis.yml
+45 silly gunzTarPerm extractEntry LICENSE-MIT
+46 silly gunzTarPerm extractEntry docs/breadboard/led-rgb.fzz
+47 silly gunzTarPerm extractEntry docs/breadboard/led-rgb.png
+48 silly gunzTarPerm extractEntry docs/breadboard/servo.fzz
+49 silly gunzTarPerm extractEntry docs/breadboard/servo.png
+50 silly gunzTarPerm extractEntry docs/led-rgb.md
+51 silly gunzTarPerm extractEntry docs/servo-continuous.md
+52 silly gunzTarPerm extractEntry docs/servo-keypress.md
+53 silly gunzTarPerm extractEntry docs/servo-prompt.md
+54 silly gunzTarPerm extractEntry docs/servo.md
+55 silly gunzTarPerm extractEntry eg/.npmignore
+56 silly gunzTarPerm extractEntry eg/board-multi.js
+57 silly gunzTarPerm extractEntry eg/board.js
+58 silly gunzTarPerm extractEntry eg/foo-servo.js
+59 silly gunzTarPerm extractEntry eg/led-rgb.js
+60 silly gunzTarPerm extractEntry eg/blink.js
+61 silly gunzTarPerm extractEntry eg/read.js
+62 silly gunzTarPerm extractEntry eg/servo-continuous.js
+63 silly gunzTarPerm extractEntry eg/servo-keypress.js
+64 silly gunzTarPerm extractEntry eg/servo-prompt.js
+65 silly gunzTarPerm extractEntry eg/servo.js
+66 silly gunzTarPerm extractEntry eg/pwm-analog-write.js
+67 silly gunzTarPerm extractEntry lib/spark.js
+68 silly gunzTarPerm extractEntry readme.md
+69 silly gunzTarPerm extractEntry test/spark.js
+70 silly lockFile 4ddfbcdf-4976-0-19320048484951258-package tar:///var/folders/sn/m3v74dg96pd965kcr6nd8pqw0000gn/T/npm-78579--auoCnuH/1410039004976-0.19320048484951258/package
+71 silly lockFile 4ddfbcdf-4976-0-19320048484951258-package tar:///var/folders/sn/m3v74dg96pd965kcr6nd8pqw0000gn/T/npm-78579--auoCnuH/1410039004976-0.19320048484951258/package
+72 silly lockFile 0ff4e7b8-4976-0-19320048484951258-tmp-tgz tar:///var/folders/sn/m3v74dg96pd965kcr6nd8pqw0000gn/T/npm-78579--auoCnuH/1410039004976-0.19320048484951258/tmp.tgz
+73 silly lockFile 0ff4e7b8-4976-0-19320048484951258-tmp-tgz tar:///var/folders/sn/m3v74dg96pd965kcr6nd8pqw0000gn/T/npm-78579--auoCnuH/1410039004976-0.19320048484951258/tmp.tgz
+74 verbose tar pack [ '/Users/ytham/.npm/spark-io/0.5.1/package.tgz',
+74 verbose tar pack   '/var/folders/sn/m3v74dg96pd965kcr6nd8pqw0000gn/T/npm-78579--auoCnuH/1410039004976-0.19320048484951258/package' ]
+75 verbose tarball /Users/ytham/.npm/spark-io/0.5.1/package.tgz
+76 verbose folder /var/folders/sn/m3v74dg96pd965kcr6nd8pqw0000gn/T/npm-78579--auoCnuH/1410039004976-0.19320048484951258/package
+77 silly lockFile 4ddfbcdf-4976-0-19320048484951258-package tar:///var/folders/sn/m3v74dg96pd965kcr6nd8pqw0000gn/T/npm-78579--auoCnuH/1410039004976-0.19320048484951258/package
+78 verbose lock tar:///var/folders/sn/m3v74dg96pd965kcr6nd8pqw0000gn/T/npm-78579--auoCnuH/1410039004976-0.19320048484951258/package /Users/ytham/.npm/4ddfbcdf-4976-0-19320048484951258-package.lock
+79 silly lockFile eb04558d-m-npm-spark-io-0-5-1-package-tgz tar:///Users/ytham/.npm/spark-io/0.5.1/package.tgz
+80 verbose lock tar:///Users/ytham/.npm/spark-io/0.5.1/package.tgz /Users/ytham/.npm/eb04558d-m-npm-spark-io-0-5-1-package-tgz.lock
+81 silly lockFile 4ddfbcdf-4976-0-19320048484951258-package tar:///var/folders/sn/m3v74dg96pd965kcr6nd8pqw0000gn/T/npm-78579--auoCnuH/1410039004976-0.19320048484951258/package
+82 silly lockFile 4ddfbcdf-4976-0-19320048484951258-package tar:///var/folders/sn/m3v74dg96pd965kcr6nd8pqw0000gn/T/npm-78579--auoCnuH/1410039004976-0.19320048484951258/package
+83 silly lockFile eb04558d-m-npm-spark-io-0-5-1-package-tgz tar:///Users/ytham/.npm/spark-io/0.5.1/package.tgz
+84 silly lockFile eb04558d-m-npm-spark-io-0-5-1-package-tgz tar:///Users/ytham/.npm/spark-io/0.5.1/package.tgz
+85 silly lockFile b51eaeb3-ytham-npm-spark-io-0-5-1-package /Users/ytham/.npm/spark-io/0.5.1/package
+86 verbose lock /Users/ytham/.npm/spark-io/0.5.1/package /Users/ytham/.npm/b51eaeb3-ytham-npm-spark-io-0-5-1-package.lock
+87 silly lockFile b51eaeb3-ytham-npm-spark-io-0-5-1-package /Users/ytham/.npm/spark-io/0.5.1/package
+88 silly lockFile b51eaeb3-ytham-npm-spark-io-0-5-1-package /Users/ytham/.npm/spark-io/0.5.1/package
+89 verbose tar unpack /Users/ytham/.npm/spark-io/0.5.1/package.tgz
+90 silly lockFile cc7f8cb1-ytham-npm-spark-io-0-5-1-package tar:///Users/ytham/.npm/spark-io/0.5.1/package
+91 verbose lock tar:///Users/ytham/.npm/spark-io/0.5.1/package /Users/ytham/.npm/cc7f8cb1-ytham-npm-spark-io-0-5-1-package.lock
+92 silly lockFile eb04558d-m-npm-spark-io-0-5-1-package-tgz tar:///Users/ytham/.npm/spark-io/0.5.1/package.tgz
+93 verbose lock tar:///Users/ytham/.npm/spark-io/0.5.1/package.tgz /Users/ytham/.npm/eb04558d-m-npm-spark-io-0-5-1-package-tgz.lock
+94 silly gunzTarPerm modes [ '755', '644' ]
+95 silly gunzTarPerm extractEntry package.json
+96 silly gunzTarPerm extractEntry .npmignore
+97 silly gunzTarPerm extractEntry .travis.yml
+98 silly gunzTarPerm extractEntry LICENSE-MIT
+99 silly gunzTarPerm extractEntry docs/breadboard/led-rgb.fzz
+100 silly gunzTarPerm extractEntry docs/breadboard/led-rgb.png
+101 silly gunzTarPerm extractEntry docs/breadboard/servo.fzz
+102 silly gunzTarPerm extractEntry docs/breadboard/servo.png
+103 silly gunzTarPerm extractEntry docs/led-rgb.md
+104 silly gunzTarPerm extractEntry docs/servo-continuous.md
+105 silly gunzTarPerm extractEntry docs/servo-keypress.md
+106 silly gunzTarPerm extractEntry docs/servo-prompt.md
+107 silly gunzTarPerm extractEntry docs/servo.md
+108 silly gunzTarPerm extractEntry eg/.npmignore
+109 silly gunzTarPerm extractEntry eg/board-multi.js
+110 silly gunzTarPerm extractEntry eg/board.js
+111 silly gunzTarPerm extractEntry eg/foo-servo.js
+112 silly gunzTarPerm extractEntry eg/led-rgb.js
+113 silly gunzTarPerm extractEntry eg/blink.js
+114 silly gunzTarPerm extractEntry eg/read.js
+115 silly gunzTarPerm extractEntry eg/servo-continuous.js
+116 silly gunzTarPerm extractEntry eg/servo-keypress.js
+117 silly gunzTarPerm extractEntry eg/servo-prompt.js
+118 silly gunzTarPerm extractEntry eg/servo.js
+119 silly gunzTarPerm extractEntry eg/pwm-analog-write.js
+120 silly gunzTarPerm extractEntry lib/spark.js
+121 silly gunzTarPerm extractEntry readme.md
+122 silly gunzTarPerm extractEntry test/spark.js
+123 silly lockFile cc7f8cb1-ytham-npm-spark-io-0-5-1-package tar:///Users/ytham/.npm/spark-io/0.5.1/package
+124 silly lockFile cc7f8cb1-ytham-npm-spark-io-0-5-1-package tar:///Users/ytham/.npm/spark-io/0.5.1/package
+125 silly lockFile eb04558d-m-npm-spark-io-0-5-1-package-tgz tar:///Users/ytham/.npm/spark-io/0.5.1/package.tgz
+126 silly lockFile eb04558d-m-npm-spark-io-0-5-1-package-tgz tar:///Users/ytham/.npm/spark-io/0.5.1/package.tgz
+127 verbose chmod /Users/ytham/.npm/spark-io/0.5.1/package.tgz 644
+128 verbose chown /Users/ytham/.npm/spark-io/0.5.1/package.tgz [ 501, 20 ]
+129 silly lockFile 41eb676b--org-spark-io-spark-io-0-5-1-tgz https://registry.npmjs.org/spark-io/-/spark-io-0.5.1.tgz
+130 silly lockFile 41eb676b--org-spark-io-spark-io-0-5-1-tgz https://registry.npmjs.org/spark-io/-/spark-io-0.5.1.tgz
+131 silly lockFile 65065b9f-spark-io-0-5-1 spark-io@0.5.1
+132 silly lockFile 65065b9f-spark-io-0-5-1 spark-io@0.5.1
+133 silly lockFile 50436272-spark-io spark-io@
+134 silly lockFile 50436272-spark-io spark-io@
+135 silly resolved [ { name: 'spark-io',
+135 silly resolved     description: 'Spark Core IO',
+135 silly resolved     version: '0.5.1',
+135 silly resolved     homepage: 'https://github.com/rwaldron/spark-io',
+135 silly resolved     author: { name: 'Rick Waldron', email: 'waldron.rick@gmail.com' },
+135 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+135 silly resolved     keywords: [ 'spark', 'io', 'arduino', 'firmata', 'johnny-five' ],
+135 silly resolved     repository: { type: 'git', url: 'git://github.com/rwaldron/spark-io.git' },
+135 silly resolved     bugs: { url: 'https://github.com/rwaldron/spark-io/issues' },
+135 silly resolved     licenses: [ [Object] ],
+135 silly resolved     main: 'lib/spark',
+135 silly resolved     engines: { node: '>=0.10.0' },
+135 silly resolved     dependencies: { 'es6-shim': '~0.9.2', nanotimer: '0.3.0' },
+135 silly resolved     devDependencies:
+135 silly resolved      { sinon: '~1.7.3',
+135 silly resolved        grunt: '~0.4.1',
+135 silly resolved        'grunt-contrib-jshint': '~0.6.0',
+135 silly resolved        'grunt-contrib-nodeunit': '~0.2.0',
+135 silly resolved        'grunt-contrib-watch': '~0.5.3',
+135 silly resolved        'grunt-jsbeautifier': '~0.2.2' },
+135 silly resolved     scripts: { test: 'grunt' },
+135 silly resolved     'js-flags': '--harmony',
+135 silly resolved     readme: '# Spark-io\n\n[![Build Status](https://travis-ci.org/rwaldron/spark-io.png?branch=master)](https://travis-ci.org/rwaldron/spark-io)\n\nSpark-io is a Firmata-compatibility IO class for writing node programs that interact with [Spark devices](http://docs.spark.io/). Spark-io was built at [Bocoup](http://bocoup.com/)\n\n### Getting Started\n\nIn order to use the spark-io library, you will need to load the special\n[voodoospark](https://github.com/voodootikigod/voodoospark) firmware onto your\ndevice. We recommend you review [VoodooSpark\'s Getting Started](https://github.com/voodootikigod/voodoospark#getting-started) before continuing.\n\nWe recommend storing the token and device id in a dot file containing these: \n\n```bash\nexport SPARK_TOKEN = "...your token..."\nexport SPARK_DEVICE_ID = "...your device id..."\n```\n\n\n\n### Blink an Led\n\n\nThe "Hello World" of microcontroller programming:\n\n```js\nvar Spark = require("spark-io");\nvar board = new Spark({\n  token: process.env.SPARK_TOKEN,\n  deviceId: process.env.SPARK_DEVICE_ID\n});\n\nboard.on("ready", function() {\n  console.log("CONNECTED");\n  this.pinMode("D7", this.MODES.OUTPUT);\n\n  var byte = 0;\n\n  // This will "blink" the on board led\n  setInterval(function() {\n    this.digitalWrite("D7", (byte ^= 1));\n  }.bind(this), 500);\n});\n```\n\n### Johnny-Five IO Plugin\n\nSpark-IO can be used as an [IO Plugin](https://github.com/rwaldron/johnny-five/wiki/IO-Plugins) for [Johnny-Five](https://github.com/rwaldron/johnny-five):\n\n```js\nvar five = require("johnny-five");\nvar Spark = require("spark-io");\nvar board = new five.Board({\n  io: new Spark({\n    token: process.env.SPARK_TOKEN,\n    deviceId: process.env.SPARK_DEVICE_ID\n  })\n});\n\nboard.on("ready", function() {\n  var led = new five.Led("D7");\n  led.blink();\n});\n```\n\n\n### API\n\n**MODES**\n\n> The `MODES` property is available as a Spark instance property:\n\n```js\nvar board = new Spark(...);\nboard.MODES;\n```\n- INPUT: 0\n- OUTPUT: 1\n- ANALOG: 2\n- PWM: 3\n- SERVO: 4\n\n\n**pinMode(pin, MODE)**\n\n> Set a pin\'s mode to any one of the MODES\n\nExample:\n```js\nvar board = new Spark(...);\n\nboard.on("ready", function() {\n\n  // Set digital pin 7 to OUTPUT:\n  this.pinMode("D7", this.MODES.OUTPUT);\n\n  // or just use the integer:\n  this.pinMode("D7", 1);\n\n});\n```\n\n\n\n**digitalWrite(pin, value)**\n\n> Sets the pin to `1` or `0`, which either connects it to 3.3V (the maximum voltage of the system) or to GND (ground).\n\nExample:\n```js\nvar board = new Spark(...);\n\nboard.on("ready", function() {\n\n  // This will turn ON the on-board LED\n  this.digitalWrite("D7", 1);\n\n  // OR...\n\n  // This will turn OFF the on-board LED\n  this.digitalWrite("D7", 0);\n\n});\n```\n\n**analogWrite(pin, value)**\n\n> Sets the pin to an 8-bit value between 0 and 255, where 0 is the same as LOW and 255 is the same as HIGH. This is sort of like sending a voltage between 0 and 3.3V, but since this is a digital system, it uses a mechanism called Pulse Width Modulation, or PWM. You could use analogWrite to dim an LED, as an example. PWM is available on D0, D1, A0, A1, A4, A5, A6 and A7.\n\n\nExample:\n```js\nvar board = new Spark(...);\n\nboard.on("ready", function() {\n\n  // Set an LED to full brightness\n  this.analogWrite("A7", 255);\n\n  // OR...\n\n  // Set an LED to half brightness\n  this.analogWrite("A7", 128);\n\n});\n```\n\n**servoWrite(pin, value)**\n\n> Sets the pin to a value between 0 and 180, where the value represents degrees of the servo horn. The value is converted to a PWM signal. PWM is available on D0, D1, A0, A1, A4, A5, A6 and A7.\n\nExample:\n```js\nvar board = new Spark(...);\n\nboard.on("ready", function() {\n\n  // Move a servo to 90 degrees\n  this.servoWrite("D0", 90);\n\n});\n```\n\n\n**digitalRead(pin, handler)** Setup a continuous read handler for specific digital pin (D0-D7).\n\n> This will read the digital value of a pin, which can be read as either HIGH or LOW. If you were to connect the pin to a 3.3V source, it would read HIGH (1); if you connect it to GND, it would read LOW (0).\n\nExample:\n```js\nvar board = new Spark(...);\n\nboard.on("ready", function() {\n\n  // Log all the readings for D1\n  this.digitalRead("D1", function(data) {\n    console.log(data);\n  });\n\n});\n```\n\n\n**analogRead(pin, handler)** Setup a continuous read handler for specific analog pin (A0-A7). Use with all analog sensors\n\n\nExample:\n```js\nvar board = new Spark(...);\n\nboard.on("ready", function() {\n\n  // Log all the readings for A1\n  this.analogRead("A1", function(data) {\n    console.log(data);\n  });\n\n});\n```\n\n\n\n### Notes\n\n- The Spark Core docs state that PWM is available on A0, A1, A4, A5, A6, A7, D0 and D1. These pins have now all been confirmed and are supported as of v0.4.0.\n\n## License\nSee LICENSE file.\n',
+135 silly resolved     readmeFilename: 'readme.md',
+135 silly resolved     _id: 'spark-io@0.5.1',
+135 silly resolved     dist: { shasum: '890cc9264d4b38a32d63222fb98b6a4efa512fd1' },
+135 silly resolved     _from: 'spark-io@',
+135 silly resolved     _resolved: 'https://registry.npmjs.org/spark-io/-/spark-io-0.5.1.tgz' } ]
+136 info install spark-io@0.5.1 into /Users/ytham/js/chair
+137 info installOne spark-io@0.5.1
+138 info /Users/ytham/js/chair/node_modules/spark-io unbuild
+139 verbose tar unpack /Users/ytham/.npm/spark-io/0.5.1/package.tgz
+140 silly lockFile 3da32d00-m-js-chair-node-modules-spark-io tar:///Users/ytham/js/chair/node_modules/spark-io
+141 verbose lock tar:///Users/ytham/js/chair/node_modules/spark-io /Users/ytham/.npm/3da32d00-m-js-chair-node-modules-spark-io.lock
+142 silly lockFile eb04558d-m-npm-spark-io-0-5-1-package-tgz tar:///Users/ytham/.npm/spark-io/0.5.1/package.tgz
+143 verbose lock tar:///Users/ytham/.npm/spark-io/0.5.1/package.tgz /Users/ytham/.npm/eb04558d-m-npm-spark-io-0-5-1-package-tgz.lock
+144 silly gunzTarPerm modes [ '755', '644' ]
+145 silly gunzTarPerm extractEntry package.json
+146 silly gunzTarPerm extractEntry .npmignore
+147 silly gunzTarPerm extractEntry .travis.yml
+148 silly gunzTarPerm extractEntry LICENSE-MIT
+149 silly gunzTarPerm extractEntry docs/breadboard/led-rgb.fzz
+150 silly gunzTarPerm extractEntry docs/breadboard/led-rgb.png
+151 silly gunzTarPerm extractEntry docs/breadboard/servo.fzz
+152 silly gunzTarPerm extractEntry docs/breadboard/servo.png
+153 silly gunzTarPerm extractEntry docs/led-rgb.md
+154 silly gunzTarPerm extractEntry docs/servo-continuous.md
+155 silly gunzTarPerm extractEntry docs/servo-keypress.md
+156 silly gunzTarPerm extractEntry docs/servo-prompt.md
+157 silly gunzTarPerm extractEntry docs/servo.md
+158 silly gunzTarPerm extractEntry eg/.npmignore
+159 silly gunzTarPerm extractEntry eg/board-multi.js
+160 silly gunzTarPerm extractEntry eg/board.js
+161 silly gunzTarPerm extractEntry eg/foo-servo.js
+162 silly gunzTarPerm extractEntry eg/led-rgb.js
+163 silly gunzTarPerm extractEntry eg/blink.js
+164 silly gunzTarPerm extractEntry eg/read.js
+165 silly gunzTarPerm extractEntry eg/servo-continuous.js
+166 silly gunzTarPerm extractEntry eg/servo-keypress.js
+167 silly gunzTarPerm extractEntry eg/servo-prompt.js
+168 silly gunzTarPerm extractEntry eg/servo.js
+169 silly gunzTarPerm extractEntry eg/pwm-analog-write.js
+170 silly gunzTarPerm extractEntry lib/spark.js
+171 silly gunzTarPerm extractEntry readme.md
+172 silly gunzTarPerm extractEntry test/spark.js
+173 silly lockFile 3da32d00-m-js-chair-node-modules-spark-io tar:///Users/ytham/js/chair/node_modules/spark-io
+174 silly lockFile 3da32d00-m-js-chair-node-modules-spark-io tar:///Users/ytham/js/chair/node_modules/spark-io
+175 silly lockFile eb04558d-m-npm-spark-io-0-5-1-package-tgz tar:///Users/ytham/.npm/spark-io/0.5.1/package.tgz
+176 silly lockFile eb04558d-m-npm-spark-io-0-5-1-package-tgz tar:///Users/ytham/.npm/spark-io/0.5.1/package.tgz
+177 info preinstall spark-io@0.5.1
+178 verbose readDependencies using package.json deps
+179 verbose readDependencies using package.json deps
+180 verbose cache add [ 'es6-shim@~0.9.2', null ]
+181 verbose cache add name=undefined spec="es6-shim@~0.9.2" args=["es6-shim@~0.9.2",null]
+182 verbose parsed url { protocol: null,
+182 verbose parsed url   slashes: null,
+182 verbose parsed url   auth: null,
+182 verbose parsed url   host: null,
+182 verbose parsed url   port: null,
+182 verbose parsed url   hostname: null,
+182 verbose parsed url   hash: null,
+182 verbose parsed url   search: null,
+182 verbose parsed url   query: null,
+182 verbose parsed url   pathname: 'es6-shim@~0.9.2',
+182 verbose parsed url   path: 'es6-shim@~0.9.2',
+182 verbose parsed url   href: 'es6-shim@~0.9.2' }
+183 verbose cache add name="es6-shim" spec="~0.9.2" args=["es6-shim","~0.9.2"]
+184 verbose parsed url { protocol: null,
+184 verbose parsed url   slashes: null,
+184 verbose parsed url   auth: null,
+184 verbose parsed url   host: null,
+184 verbose parsed url   port: null,
+184 verbose parsed url   hostname: null,
+184 verbose parsed url   hash: null,
+184 verbose parsed url   search: null,
+184 verbose parsed url   query: null,
+184 verbose parsed url   pathname: '~0.9.2',
+184 verbose parsed url   path: '~0.9.2',
+184 verbose parsed url   href: '~0.9.2' }
+185 verbose addNamed [ 'es6-shim', '~0.9.2' ]
+186 verbose addNamed [ null, '>=0.9.2-0 <0.10.0-0' ]
+187 silly lockFile 09b6ce0b-es6-shim-0-9-2 es6-shim@~0.9.2
+188 verbose lock es6-shim@~0.9.2 /Users/ytham/.npm/09b6ce0b-es6-shim-0-9-2.lock
+189 verbose cache add [ 'nanotimer@0.3.0', null ]
+190 verbose cache add name=undefined spec="nanotimer@0.3.0" args=["nanotimer@0.3.0",null]
+191 verbose parsed url { protocol: null,
+191 verbose parsed url   slashes: null,
+191 verbose parsed url   auth: null,
+191 verbose parsed url   host: null,
+191 verbose parsed url   port: null,
+191 verbose parsed url   hostname: null,
+191 verbose parsed url   hash: null,
+191 verbose parsed url   search: null,
+191 verbose parsed url   query: null,
+191 verbose parsed url   pathname: 'nanotimer@0.3.0',
+191 verbose parsed url   path: 'nanotimer@0.3.0',
+191 verbose parsed url   href: 'nanotimer@0.3.0' }
+192 verbose cache add name="nanotimer" spec="0.3.0" args=["nanotimer","0.3.0"]
+193 verbose parsed url { protocol: null,
+193 verbose parsed url   slashes: null,
+193 verbose parsed url   auth: null,
+193 verbose parsed url   host: null,
+193 verbose parsed url   port: null,
+193 verbose parsed url   hostname: null,
+193 verbose parsed url   hash: null,
+193 verbose parsed url   search: null,
+193 verbose parsed url   query: null,
+193 verbose parsed url   pathname: '0.3.0',
+193 verbose parsed url   path: '0.3.0',
+193 verbose parsed url   href: '0.3.0' }
+194 verbose addNamed [ 'nanotimer', '0.3.0' ]
+195 verbose addNamed [ '0.3.0', '0.3.0' ]
+196 silly lockFile e2a4c7ec-nanotimer-0-3-0 nanotimer@0.3.0
+197 verbose lock nanotimer@0.3.0 /Users/ytham/.npm/e2a4c7ec-nanotimer-0-3-0.lock
+198 silly addNameRange { name: 'es6-shim',
+198 silly addNameRange   range: '>=0.9.2-0 <0.10.0-0',
+198 silly addNameRange   hasData: false }
+199 verbose url raw es6-shim
+200 verbose url resolving [ 'https://registry.npmjs.org/', './es6-shim' ]
+201 verbose url resolved https://registry.npmjs.org/es6-shim
+202 info trying registry request attempt 1 at 14:30:32
+203 http GET https://registry.npmjs.org/es6-shim
+204 verbose url raw nanotimer/0.3.0
+205 verbose url resolving [ 'https://registry.npmjs.org/', './nanotimer/0.3.0' ]
+206 verbose url resolved https://registry.npmjs.org/nanotimer/0.3.0
+207 info trying registry request attempt 1 at 14:30:32
+208 verbose etag "2EXC80Z11FSW0I2YEGT0PY8GP"
+209 http GET https://registry.npmjs.org/nanotimer/0.3.0
+210 http 200 https://registry.npmjs.org/nanotimer/0.3.0
+211 silly registry.get cb [ 200,
+211 silly registry.get   { date: 'Sat, 06 Sep 2014 21:30:34 GMT',
+211 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+211 silly registry.get     etag: '"1RLWW9UVXS22N2AFJ2DIT3K69"',
+211 silly registry.get     'content-type': 'application/json',
+211 silly registry.get     'cache-control': 'max-age=60',
+211 silly registry.get     'content-length': '703',
+211 silly registry.get     'accept-ranges': 'bytes',
+211 silly registry.get     via: '1.1 varnish',
+211 silly registry.get     age: '0',
+211 silly registry.get     'x-served-by': 'cache-lax1431-LAX',
+211 silly registry.get     'x-cache': 'MISS',
+211 silly registry.get     'x-cache-hits': '0',
+211 silly registry.get     'x-timer': 'S1410039033.702998,VS0,VE315',
+211 silly registry.get     vary: 'Accept',
+211 silly registry.get     'keep-alive': 'timeout=10, max=50',
+211 silly registry.get     connection: 'Keep-Alive' } ]
+212 silly lockFile 58464566-rg-nanotimer-nanotimer-0-3-0-tgz https://registry.npmjs.org/nanotimer/-/nanotimer-0.3.0.tgz
+213 verbose lock https://registry.npmjs.org/nanotimer/-/nanotimer-0.3.0.tgz /Users/ytham/.npm/58464566-rg-nanotimer-nanotimer-0-3-0-tgz.lock
+214 verbose addRemoteTarball [ 'https://registry.npmjs.org/nanotimer/-/nanotimer-0.3.0.tgz',
+214 verbose addRemoteTarball   '54d2943823fbf25a2bf649a54fee7e0330d4c728' ]
+215 info retry fetch attempt 1 at 14:30:34
+216 verbose fetch to= /var/folders/sn/m3v74dg96pd965kcr6nd8pqw0000gn/T/npm-78579--auoCnuH/1410039034009-0.83906584023498/tmp.tgz
+217 http GET https://registry.npmjs.org/nanotimer/-/nanotimer-0.3.0.tgz
+218 error fetch failed https://registry.npmjs.org/nanotimer/-/nanotimer-0.3.0.tgz
+219 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+220 http 200 https://registry.npmjs.org/es6-shim
+221 silly registry.get cb [ 200,
+221 silly registry.get   { date: 'Sat, 06 Sep 2014 21:30:33 GMT',
+221 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+221 silly registry.get     etag: '"B4RET7EKC1ML8UDRG9KQ9UV2M"',
+221 silly registry.get     'content-type': 'application/json',
+221 silly registry.get     'cache-control': 'max-age=60',
+221 silly registry.get     'content-length': '48115',
+221 silly registry.get     'accept-ranges': 'bytes',
+221 silly registry.get     via: '1.1 varnish',
+221 silly registry.get     age: '9766',
+221 silly registry.get     'x-served-by': 'cache-lax1429-LAX',
+221 silly registry.get     'x-cache': 'HIT',
+221 silly registry.get     'x-cache-hits': '1',
+221 silly registry.get     'x-timer': 'S1410039033.689728,VS0,VE0',
+221 silly registry.get     vary: 'Accept',
+221 silly registry.get     'keep-alive': 'timeout=10, max=50',
+221 silly registry.get     connection: 'Keep-Alive' } ]
+222 silly addNameRange number 2 { name: 'es6-shim', range: '>=0.9.2-0 <0.10.0-0', hasData: true }
+223 silly addNameRange versions [ 'es6-shim',
+223 silly addNameRange   [ '0.1.0',
+223 silly addNameRange     '0.2.0',
+223 silly addNameRange     '0.2.1',
+223 silly addNameRange     '0.3.0',
+223 silly addNameRange     '0.3.1',
+223 silly addNameRange     '0.4.0',
+223 silly addNameRange     '0.4.1',
+223 silly addNameRange     '0.5.0',
+223 silly addNameRange     '0.5.1',
+223 silly addNameRange     '0.5.2',
+223 silly addNameRange     '0.5.3',
+223 silly addNameRange     '0.6.0',
+223 silly addNameRange     '0.7.0',
+223 silly addNameRange     '0.8.0',
+223 silly addNameRange     '0.9.0',
+223 silly addNameRange     '0.9.1',
+223 silly addNameRange     '0.9.2',
+223 silly addNameRange     '0.9.3',
+223 silly addNameRange     '0.10.0',
+223 silly addNameRange     '0.10.1',
+223 silly addNameRange     '0.11.0',
+223 silly addNameRange     '0.11.1',
+223 silly addNameRange     '0.12.0',
+223 silly addNameRange     '0.13.0',
+223 silly addNameRange     '0.14.0',
+223 silly addNameRange     '0.15.0',
+223 silly addNameRange     '0.15.1',
+223 silly addNameRange     '0.16.0',
+223 silly addNameRange     '0.17.0' ] ]
+224 verbose addNamed [ 'es6-shim', '0.9.3' ]
+225 verbose addNamed [ '0.9.3', '0.9.3' ]
+226 silly lockFile f2b29dd2-es6-shim-0-9-3 es6-shim@0.9.3
+227 verbose lock es6-shim@0.9.3 /Users/ytham/.npm/f2b29dd2-es6-shim-0-9-3.lock
+228 silly lockFile d8512674--org-es6-shim-es6-shim-0-9-3-tgz https://registry.npmjs.org/es6-shim/-/es6-shim-0.9.3.tgz
+229 verbose lock https://registry.npmjs.org/es6-shim/-/es6-shim-0.9.3.tgz /Users/ytham/.npm/d8512674--org-es6-shim-es6-shim-0-9-3-tgz.lock
+230 verbose addRemoteTarball [ 'https://registry.npmjs.org/es6-shim/-/es6-shim-0.9.3.tgz',
+230 verbose addRemoteTarball   '00c725e75b0ae4d322e6ccbd87484a800237f03a' ]
+231 info retry fetch attempt 1 at 14:30:35
+232 verbose fetch to= /var/folders/sn/m3v74dg96pd965kcr6nd8pqw0000gn/T/npm-78579--auoCnuH/1410039035070-0.381313658086583/tmp.tgz
+233 http GET https://registry.npmjs.org/es6-shim/-/es6-shim-0.9.3.tgz
+234 error fetch failed https://registry.npmjs.org/es6-shim/-/es6-shim-0.9.3.tgz
+235 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+236 info retry fetch attempt 2 at 14:30:44
+237 verbose fetch to= /var/folders/sn/m3v74dg96pd965kcr6nd8pqw0000gn/T/npm-78579--auoCnuH/1410039034009-0.83906584023498/tmp.tgz
+238 http GET https://registry.npmjs.org/nanotimer/-/nanotimer-0.3.0.tgz
+239 error fetch failed https://registry.npmjs.org/nanotimer/-/nanotimer-0.3.0.tgz
+240 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+241 info retry fetch attempt 2 at 14:30:45
+242 verbose fetch to= /var/folders/sn/m3v74dg96pd965kcr6nd8pqw0000gn/T/npm-78579--auoCnuH/1410039035070-0.381313658086583/tmp.tgz
+243 http GET https://registry.npmjs.org/es6-shim/-/es6-shim-0.9.3.tgz
+244 error fetch failed https://registry.npmjs.org/es6-shim/-/es6-shim-0.9.3.tgz
+245 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+246 info retry fetch attempt 3 at 14:31:44
+247 verbose fetch to= /var/folders/sn/m3v74dg96pd965kcr6nd8pqw0000gn/T/npm-78579--auoCnuH/1410039034009-0.83906584023498/tmp.tgz
+248 http GET https://registry.npmjs.org/nanotimer/-/nanotimer-0.3.0.tgz
+249 error fetch failed https://registry.npmjs.org/nanotimer/-/nanotimer-0.3.0.tgz
+250 silly lockFile 58464566-rg-nanotimer-nanotimer-0-3-0-tgz https://registry.npmjs.org/nanotimer/-/nanotimer-0.3.0.tgz
+251 silly lockFile 58464566-rg-nanotimer-nanotimer-0-3-0-tgz https://registry.npmjs.org/nanotimer/-/nanotimer-0.3.0.tgz
+252 silly lockFile e2a4c7ec-nanotimer-0-3-0 nanotimer@0.3.0
+253 silly lockFile e2a4c7ec-nanotimer-0-3-0 nanotimer@0.3.0
+254 verbose about to build /Users/ytham/js/chair/node_modules/spark-io
+255 info /Users/ytham/js/chair/node_modules/spark-io unbuild
+256 info preuninstall spark-io@0.5.1
+257 info uninstall spark-io@0.5.1
+258 verbose true,/Users/ytham/js/chair/node_modules,/Users/ytham/js/chair/node_modules unbuild spark-io@0.5.1
+259 info postuninstall spark-io@0.5.1
+260 error network getaddrinfo ENOTFOUND
+260 error network This is most likely not a problem with npm itself
+260 error network and is related to network connectivity.
+260 error network In most cases you are behind a proxy or have bad network settings.
+260 error network
+260 error network If you are behind a proxy, please make sure that the
+260 error network 'proxy' config is set properly.  See: 'npm help config'
+261 error System Darwin 14.0.0
+262 error command "node" "/usr/local/bin/npm" "install" "spark-io"
+263 error cwd /Users/ytham/js/chair
+264 error node -v v0.10.22
+265 error npm -v 1.3.14
+266 error syscall getaddrinfo
+267 error code ENOTFOUND
+268 error errno ENOTFOUND
+269 verbose exit [ 1, true ]
